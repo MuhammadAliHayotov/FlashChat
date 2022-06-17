@@ -72,9 +72,8 @@
 		0B628175235DEE8100E35CAF /* Flash Chat iOS13 */ = {
 			isa = PBXGroup;
 			children = (
-				0B628176235DEE8100E35CAF /* AppDelegate.swift */,
-				0B628178235DEE8100E35CAF /* SceneDelegate.swift */,
-				0B628194235DF03A00E35CAF /* Models */,
+				A4CC7DCE285C7F4E0071A6CA /* Delegates */,
+				A4CC7DCD285C7F400071A6CA /* Models */,
 				0B628193235DF03400E35CAF /* Views */,
 				0B628192235DF02000E35CAF /* Controllers */,
 				0B62817F235DEE8400E35CAF /* Assets.xcassets */,
@@ -103,13 +102,6 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
-		0B628194235DF03A00E35CAF /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		395979E0A79A73DB1F696778 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +109,22 @@
 				C8A92BF60CEAA54666E54962 /* Pods-Flash Chat iOS13.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		A4CC7DCD285C7F400071A6CA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		A4CC7DCE285C7F4E0071A6CA /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				0B628176235DEE8100E35CAF /* AppDelegate.swift */,
+				0B628178235DEE8100E35CAF /* SceneDelegate.swift */,
+			);
+			path = Delegates;
 			sourceTree = "<group>";
 		};
 		DD693EF8D8DBDEE1D4D5FB7C /* Frameworks */ = {
